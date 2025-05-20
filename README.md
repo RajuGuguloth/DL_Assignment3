@@ -1,4 +1,4 @@
-
+https://api.wandb.ai/links/rajunaik-iit-madras/l3c6x7id
 #  CS6910 Assignment 3: Roman to Devanagari Transliteration using Seq2Seq Models
 
 **Student Name**: Raju Guguloth  
@@ -38,12 +38,12 @@ Steps Taken:
 This project provides a hands-on experience with building, training, and evaluating Seq2Seq models for a practical natural language processing task.
 
 ## Requirements
-All the python libraries required to run the program on a GPU are listed in `requirements.txt` ([link](requirements.txt)).
+All the python libraries required to run the program on a CPU (without Google colab) are listed in `requirements.txt` ([link](requirements.txt)).
 They can be installed using 
 ```shell
 pip install -r requirements.txt
 ```
-**(Use Python 3.7 or above versions of Python 3)**
+**(Use Python 3.7 or lower versions of Python 3)**
 
 The `plot_model()` function from `keras.utils.vis_utils` requires additionally the installation of **graphviz**, for which you can refer to [https://graphviz.gitlab.io/download/](https://graphviz.gitlab.io/download/). This again is needed only for running locally instead of Google colab.
 
@@ -85,7 +85,7 @@ You can configure the behavior of `main.py` using the following command-line arg
 | Argument | Description | Default |
 |----------|-------------|---------|
 | `-wp`, `--wandb_project` | Weights & Biases project name for logging experiments | `"DA6401_Assignment_3"` |
-| `-we`, `--wandb_entity` | WandB entity/team under which the project runs | `"cs24m036-indian-institute-of-technology-madras"` |
+| `-we`, `--wandb_entity` | WandB entity/team under which the project runs | `"ee20d201-indian-institute-of-technology-madras"` |
 | `-d`, `--data_directory` | Path to the `dakshina_dataset_v1.0` dataset | `"dakshina_dataset_v1.0"` |
 | `-l`, `--language` | Language code for transliteration (e.g., hi, bn) | `"hi"` |
 | `-e`, `--epochs` | Number of training epochs | `20` |
