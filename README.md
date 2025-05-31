@@ -6,8 +6,8 @@
 **Course**: Deep Learning (DA6401), IIT Madras  
 **Instructor**: Prof. Mitesh Khapra  
 **Dataset**: Dakshina v1.0  
-**W&B Project**: [My_Assignment-3](https://wandb.ai/rajunaik-iit-madras/My_Assignment-3)  
-**Notebook Location**: [`src/Assignment3.ipynb`](src/Assignment3.ipynb)  
+**W&B Project**: [My_Assignment-3]( https://api.wandb.ai/links/rajunaik-iit-madras/l3c6x7id)  
+**Notebook Location**: [`src/Assignment3.ipynb`](src/Assignment.ipynb)  
 **Predictions**: [Vanilla](predictions_vanilla/predictions_vanilla.csv) | [Attention](predictions_attention/predictions_attention.csv)
 
 #Project: Roman to Devanagari Transliteration using Sequence-to-Sequence Models
