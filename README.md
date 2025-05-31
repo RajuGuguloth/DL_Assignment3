@@ -7,7 +7,7 @@
 **Instructor**: Prof. Mitesh Khapra  
 **Dataset**: Dakshina v1.0  
 **W&B Project**: [My_Assignment-3]( https://api.wandb.ai/links/rajunaik-iit-madras/l3c6x7id)  
-**Notebook Location**: [`src/Assignment3.ipynb`](src/Assignment.ipynb)  
+**Notebook Location**: src/Assignment_DL3 (2).ipynb 
 **Predictions**: [Vanilla](predictions_vanilla/predictions_vanilla.csv) | [Attention](predictions_attention/predictions_attention.csv)
 
 #Project: Roman to Devanagari Transliteration using Sequence-to-Sequence Models
@@ -68,29 +68,4 @@ pip install -r requirements.txt
   "attention" -- Whether or not attention is used
   ```
   
-## Command Line Arguments
-
-You can configure the behavior of `main.py` using the following command-line arguments:
-
-| Argument | Description | Default |
-|----------|-------------|---------|
-| `-wp`, `--wandb_project` | Weights & Biases project name for logging experiments | `"DA6401_Assignment_3"` |
-| `-we`, `--wandb_entity` | WandB entity/team under which the project runs | `"cs24m036-indian-institute-of-technology-madras"` |
-| `-d`, `--data_directory` | Path to the `dakshina_dataset_v1.0` dataset | `"dakshina_dataset_v1.0"` |
-| `-l`, `--language` | Language code for transliteration (e.g., hi, bn) | `"hi"` |
-| `-e`, `--epochs` | Number of training epochs | `20` |
-| `-enc`, `--encoder_embedding_dim` | Embedding dimension of the encoder | `32` |
-| `-dec`, `--decoder_embedding_dim` | Embedding dimension of the decoder | `128` |
-| `-hid`, `--hidden_dim` | Hidden layer dimension for both encoder and decoder | `128` |
-| `-b`, `--batch_size` | Batch size used during training | `32` |
-| `-da`, `--use_attention` | Disable attention (default is True, use `--no-use_attention` to turn it off) | `True` |
-| `-nel`, `--num_encoder_layers` | Number of layers in the encoder | `2` |
-| `-ndl`, `--num_decoder_layers` | Number of layers in the decoder | `2` |
-| `-drprob`, `--dropout` | Dropout probability | `0.2` |
-| `-teach`, `--teacher_forcing` | Probability of using teacher forcing during training | `0.75` |
-| `-lr`, `--learning_rate` | Learning rate for the optimizer | `0.005` |
-| `-w_d`, `--weight_decay` | Weight decay (L2 regularization) | `0.0001` |
-| `-m`, `--mode` | Execution mode: `train` or `test` | `"train"` |
-| `-cell`, `--cell_type` | Type of RNN cell to use: `rnn`, `lstm`, or `gru` | `"lstm"` |
-| `-wbl`, `--wandb_log` | Enable Weights & Biases logging (`--wandb_log` to enable) | `False` |
-)
+      
